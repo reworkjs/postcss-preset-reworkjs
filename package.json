@@ -1,0 +1,34 @@
+{
+  "name": "@reworkjs/postcss-preset-reworkjs",
+  "version": "0.0.1",
+  "description": "PostCSS preset for applications built using ReworkJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reworkjs/postcss-preset-reworkjs.git"
+  },
+  "keywords": [
+    "PostCSS",
+    "ReworkJS",
+    "Preset"
+  ],
+  "author": "Guylian Cox <gc@madkings.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reworkjs/postcss-preset-reworkjs/issues"
+  },
+  "homepage": "https://github.com/reworkjs/postcss-preset-reworkjs#readme",
+  "devDependencies": {
+    "@foobarhq/eslint-config": "^1.0.1",
+    "eslint": "^3.19.0"
+  },
+  "dependencies": {
+    "postcss-cssnext": "^2.10.0",
+    "postcss-focus": "^1.0.0",
+    "postcss-reporter": "^3.0.0",
+    "postcss-scss": "^0.4.1"
+  }
+}
