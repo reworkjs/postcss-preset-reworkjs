@@ -14,5 +14,7 @@ module.exports = {
     require('postcss-reporter')({
       clearMessages: true,
     }),
+
+    require('postcss-import'),
   ],
 };

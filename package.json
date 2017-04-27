@@ -28,6 +28,7 @@
   "dependencies": {
     "postcss-cssnext": "^2.10.0",
     "postcss-focus": "^1.0.0",
+    "postcss-import": "^9.1.0",
     "postcss-reporter": "^3.0.0",
     "postcss-scss": "^0.4.1"
   }
