@@ -1,6 +1,6 @@
 {
   "name": "@reworkjs/postcss-preset-reworkjs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PostCSS preset for applications built using ReworkJS",
   "main": "index.js",
   "scripts": {
