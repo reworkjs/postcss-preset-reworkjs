@@ -1,20 +1,17 @@
 /* eslint-disable import/no-commonjs */
-/* eslint-disable global-require */
 
-module.exports = {
-  syntax: require('postcss-scss'),
-  plugins: [
-    // Add a :focus to every :hover
-    require('postcss-focus')(),
+module.exports = function genPostCssConfig(ctx) {
 
-    // Allow future CSS features to be used, also auto-prefixes the CSS...
-    require('postcss-cssnext')({ browsers: ['last 4 versions', 'IE > 10', '> 0.5%'] }),
-
-    // Posts messages from plugins to the terminal
-    require('postcss-reporter')({
-      clearMessages: true,
-    }),
-
-    require('postcss-import'),
-  ],
+  return {
+    parser: 'postcss-scss',
+    map: ctx.env === 'development' ? ctx.map : false,
+    plugins: {
+      'postcss-focus': {},
+      'postcss-reporter': {
+        clearMessages: true,
+      },
+      'postcss-import': {},
+      'postcss-cssnext': {},
+    },
+  };
 };

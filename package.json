@@ -22,14 +22,16 @@
   },
   "homepage": "https://github.com/reworkjs/postcss-preset-reworkjs#readme",
   "devDependencies": {
-    "@foobarhq/eslint-config": "^1.0.1",
-    "eslint": "^3.19.0"
+    "@foobarhq/eslint-config": "^3.0.2",
+    "eslint": "^4.4.0"
   },
   "dependencies": {
-    "postcss-cssnext": "^2.10.0",
-    "postcss-focus": "^1.0.0",
-    "postcss-import": "^9.1.0",
-    "postcss-reporter": "^3.0.0",
-    "postcss-scss": "^0.4.1"
+    "postcss-cssnext": "^3.0.2",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-focus": "^2.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nth-child-fix": "^2.0.0",
+    "postcss-reporter": "^5.0.0",
+    "postcss-scss": "^1.0.2"
   }
 }
