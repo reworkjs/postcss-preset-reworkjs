@@ -11,6 +11,8 @@ module.exports = function genPostCssConfig(ctx) {
         clearMessages: true,
       },
       'postcss-cssnext': {},
+      'postcss-flexbugs-fixes': {},
+      'postcss-nth-child-fix': {},
     },
   };
 };
