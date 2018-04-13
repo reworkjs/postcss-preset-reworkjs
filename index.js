@@ -10,7 +10,6 @@ module.exports = function genPostCssConfig(ctx) {
       'postcss-reporter': {
         clearMessages: true,
       },
-      'postcss-cssnext': {},
       'postcss-preset-env': {},
       'postcss-flexbugs-fixes': {},
       'postcss-nth-child-fix': {},
