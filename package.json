@@ -15,22 +15,21 @@
     "ReworkJS",
     "Preset"
   ],
-  "author": "Guylian Cox <gc@madkings.com>",
+  "author": "Guylian Cox <hello@guylian.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/reworkjs/postcss-preset-reworkjs/issues"
   },
   "homepage": "https://github.com/reworkjs/postcss-preset-reworkjs#readme",
   "devDependencies": {
-    "@foobarhq/eslint-config": "^3.0.2",
-    "eslint": "^4.19.1"
+    "@foobarhq/eslint-config": "^10.1.0",
+    "eslint": "^7.17.0"
   },
   "dependencies": {
-    "postcss-flexbugs-fixes": "^3.3.0",
-    "postcss-focus": "^3.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-nth-child-fix": "^2.0.0",
-    "postcss-preset-env": "^4.0.0",
-    "postcss-reporter": "^5.0.0",
-    "postcss-scss": "^1.0.5"
+    "postcss-preset-env": "^6.7.0",
+    "postcss-reporter": "^7.0.2",
+    "postcss-scss": "^3.0.4"
   }
 }

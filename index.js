@@ -6,7 +6,6 @@ module.exports = function genPostCssConfig(ctx) {
     parser: 'postcss-scss',
     map: ctx.env === 'development' ? ctx.map : false,
     plugins: {
-      'postcss-focus': {},
       'postcss-reporter': {
         clearMessages: true,
       },
